@@ -1,0 +1,21 @@
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Execute Commands') {
+            steps {
+                script {
+                    echo """
+                    I'm so grateful now that abundance comes to me easily and effortlessly on a consistent and every day basis.
+                    """
+                    sleep time: 20, unit: 'SECONDS'
+                    sh 'java -version'
+                    sh 'systemctl start jenkins'
+                    sh 'systemctl enable jenkins'
+                    sh 'systemctl status jenkins'
+                }
+            }
+        }
+    }
+}
