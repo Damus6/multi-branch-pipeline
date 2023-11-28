@@ -1,0 +1,4 @@
+ls
+systemctl status jenkins
+java -version
+Echo "I'm so grateful now that abundand comes to me easily and effortlessly on a consistant and every day basis."
